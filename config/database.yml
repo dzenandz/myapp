@@ -1,17 +1,9 @@
 default: &default
   adapter: postgresql
-  host: localhost
-  username: hattori
-  password: jasmind
-
-development:
-  <<: *default
-  database: "myapp_dev"
-
-test:
-  <<: *default
-  database: "myapp_test"
+  host: wizardlabtest.chslydw17akk.eu-west-1.rds.amazonaws.com
+  username: wizardlabtest
+  password: fq23Kc7D
 
 production:
   <<: *default
-  database: "myapp"
+  database: "lab"
