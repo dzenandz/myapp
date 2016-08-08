@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  username: hattori
+  password: jasmind
+
+development:
+  <<: *default
+  database: "myapp_dev"
+
+test:
+  <<: *default
+  database: "myapp_test"
+
+production:
+  <<: *default
+  database: "myapp"
