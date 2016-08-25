@@ -48,3 +48,8 @@ end
 
 # Include database gems for the adapters found
 # in the database configuration file
+
+group :production do
+    # Use PostgreSQL as the database for Active Record
+   gem 'pg', '~> 0.18.1'
+ end
