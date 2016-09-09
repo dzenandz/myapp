@@ -1,8 +1,8 @@
 default: &default
   adapter: postgresql
   host: wizardlabtest.ca7p5ng6m9rr.us-east-1.rds.amazonaws.com
-  username: wizardlabtest
-  password: fq23Kc7D
+  username: dzenan
+  password: dzenan.123
 
 production:
   <<: *default

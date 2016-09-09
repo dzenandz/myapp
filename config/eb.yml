@@ -1,0 +1,8 @@
+app: myapp
+region: eu-west-1
+solution_stack_name: 64bit Amazon Linux running Ruby 1.9.3
+
+production:
+  options:
+    aws:autoscaling:launchconfiguration:
+      InstanceType: t1.micro
